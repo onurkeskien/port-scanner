@@ -51,7 +51,7 @@ Recommended method (pipx):
 
     git clone https://github.com/onurkeskien/port-scanner.git
     cd port-scanner
-    pipx install .
+    pipx install
 
 After installation, you can run:
 
