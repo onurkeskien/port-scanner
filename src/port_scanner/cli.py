@@ -502,5 +502,9 @@ def main() -> int:
     return 0
 
 
-if __name__ == "__main__":
+def cli_main():
     raise SystemExit(main())
+
+if __name__ == "__main__":
+    cli_main()
+
