@@ -41,6 +41,25 @@ It is recommended to use a virtual environment.
     .\.venv\Scripts\Activate.ps1
     pip install -r requirements.txt
 
+## Installation on Kali Linux (or other Linux)
+
+Recommended method (pipx):
+
+    sudo apt update
+    sudo apt install -y pipx
+    pipx ensurepath
+
+    git clone https://github.com/onurkeskien/port-scanner.git
+    cd port-scanner
+    pipx install .
+
+After installation, you can run:
+
+    port-scanner
+
+This will start the interactive mode with language selection.
+
+
 ## Usage
 
 Make sure you are in the project root directory:
